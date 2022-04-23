@@ -5,6 +5,8 @@ console.log("hello");
 let userInputs = ["timid", "unexpectedly", "fright and haste", "Roused", "repay", 
 "generous ", "stalking", "tangles","struggling","gnawed",];
 
+let numberOfQuestions = 10;
+
 let originalStory = `
 THE LION AND THE MOUSE  from Aesop’s Fables 
 
