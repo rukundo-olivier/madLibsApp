@@ -33,9 +33,9 @@ A kindness is never wasted.
  let questionCounter = 0;
 
  for (let i = numberOfQuestions; i >= 0; i--) {
-    console.log(i);
-    console.log(questionCounter);
-    console.log(questionArray[questionCounter]+ `(${numberOfQuestions} questions left)`);
+   // console.log(i);
+    //console.log(questionCounter);
+    console.log(questionArray[questionCounter] + ` (${numberOfQuestions} questions left)`);
     numberOfQuestions--;
     questionCounter++;
 }
