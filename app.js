@@ -34,9 +34,11 @@ A kindness is never wasted.
 
  for (let i = numberOfQuestions; i >= 0; i--) {
     console.log(i);
+    console.log(questionCounter);
+    console.log(questionArray[questionCounter]);
     questionCounter++;
 }
-console.log(questionCounter);
+
 
 
 
