@@ -7,6 +7,11 @@ let userInputs = ["timid", "unexpectedly", "fright and haste", "Roused", "repay"
 
 let numberOfQuestions = 10;
 
+
+let questionArray = ["Enter an adjective","Enter an adverb","Enter a pair of nouns","Enter a correct form of verb",
+"Enter a correct form of verb","Enter an adjective","Enter a correct form of verb","Enter a correct form of verb",
+"Enter a correct form of verb","Enter a correct form of verb",];
+
 let originalStory = `
 THE LION AND THE MOUSE  from Aesop’s Fables 
 
@@ -24,6 +29,9 @@ Running to one of the great ropes that bound him, she <h2>${userInputs[9]}</h2> 
 A kindness is never wasted.  
  `;
  console.log(originalStory);
+ for (let i = numberOfQuestions; i >= 0; i--) {
+    console.log(i);
+}
 
 
 
