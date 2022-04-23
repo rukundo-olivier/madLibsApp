@@ -29,9 +29,14 @@ Running to one of the great ropes that bound him, she <h2>${userInputs[9]}</h2> 
 A kindness is never wasted.  
  `;
  console.log(originalStory);
+
+ let questionCounter = 0;
+
  for (let i = numberOfQuestions; i >= 0; i--) {
     console.log(i);
+    questionCounter++;
 }
+console.log(questionCounter);
 
 
 
